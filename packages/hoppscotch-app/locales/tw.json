@@ -69,25 +69,6 @@
     "whats_new": "新增內容",
     "wiki": "幫助"
   },
-  "auth": {
-    "account_exists": "帳號存在不同的憑證 - 登入後可連結兩個帳號",
-    "all_sign_in_options": "所有登入選項",
-    "continue_with_email": "使用電子信箱登入",
-    "continue_with_github": "使用 GitHub 登入",
-    "continue_with_google": "使用 Google 登入",
-    "continue_with_microsoft": "Continue with Microsoft",
-    "email": "電子信箱地址",
-    "logged_out": "登出",
-    "login": "登入",
-    "login_success": "登入成功",
-    "login_to_hoppscotch": "登入 Hoppscotch",
-    "logout": "登出",
-    "re_enter_email": "重新輸入電子郵件",
-    "send_magic_link": "傳送魔術連結",
-    "sync": "同步",
-    "we_sent_magic_link": "已傳送魔術連結！",
-    "we_sent_magic_link_description": "請檢查您的收件匣 - 我們向 {email} 傳送了一封郵件，其中包含了能夠讓您登入的魔術連結。"
-  },
   "authorization": {
     "generate_token": "產生權杖",
     "include_in_url": "包含在網址",
@@ -111,7 +92,6 @@
     "save_as": "另存為",
     "select": "選擇一個組合",
     "select_location": "選擇位置",
-    "select_team": "選擇一個團隊",
     "team_collections": "團隊組合"
   },
   "confirm": {
@@ -155,8 +135,6 @@
     "profile": "登入以檢視您的設定檔",
     "protocols": "協議為空",
     "schema": "連線至 GraphQL 端點",
-    "team_name": "團隊名稱為空",
-    "teams": "團隊為空",
     "tests": "沒有針對該請求的測試"
   },
   "environment": {
@@ -216,8 +194,7 @@
   },
   "header": {
     "install_pwa": "安裝應用程式",
-    "login": "登入",
-    "save_workspace": "儲存我的工作區"
+    "login": "登入"
   },
   "helpers": {
     "authorization": "授權標頭將會在您傳送請求時自動產生。",
@@ -528,53 +505,7 @@
     "websocket": "WebSocket"
   },
   "team": {
-    "already_member": "您已經是這個團隊的成員了。請聯絡您的團隊擁有者。",
-    "create_new": "建立新團隊",
-    "deleted": "團隊已刪除",
-    "edit": "編輯團隊",
-    "email": "電子信箱",
-    "email_do_not_match": "電子信箱與您的帳號資料不一致。請聯絡您的團隊擁有者。",
-    "exit": "退出團隊",
-    "exit_disabled": "團隊擁有者無法退出團隊",
-    "invalid_email_format": "電子信箱格式無效",
-    "invalid_id": "團隊 ID 無效。請聯絡您的團隊擁有者。",
-    "invalid_invite_link": "邀請連結無效",
-    "invalid_invite_link_description": "您點擊的連結無效。請聯絡您的團隊擁有者。",
-    "invalid_member_permission": "請為團隊成員提供有效的許可權",
-    "invite": "邀請",
-    "invite_more": "邀請更多",
-    "invite_tooltip": "邀請他人到這個工作區",
-    "invited_to_team": "{owner} 邀請您加入 {team}",
-    "join": "已接受邀請",
-    "join_beta": "加入 Beta 計劃以存取團隊。",
-    "join_team": "加入 {team}",
-    "joined_team": "您已加入 {team}",
-    "joined_team_description": "您現在是這個團隊的成員",
-    "left": "您已離開團隊",
-    "login_to_continue": "登入以繼續",
-    "login_to_continue_description": "您需要登入才能加入團隊。",
-    "logout_and_try_again": "登出並以其他帳號登入",
-    "member_has_invite": "這個電子信箱已經有一個邀請。聯絡您的團隊擁有者。",
-    "member_not_found": "未找到成員。聯絡您的團隊擁有者。",
-    "member_removed": "使用者已移除",
-    "member_role_updated": "使用者角色已更新",
-    "members": "成員",
-    "name_length_insufficient": "團隊名稱至少為 6 個字元",
-    "name_updated": "團隊名稱已更新",
-    "new": "新團隊",
-    "new_created": "已建立新團隊",
-    "new_name": "我的新團隊",
-    "no_access": "您沒有編輯組合的許可權",
-    "no_invite_found": "未找到邀請。聯絡您的團隊擁有者。",
-    "not_found": "Team not found. Contact your team owner.",
-    "not_valid_viewer": "您不是一個有效的檢視者。聯絡您的團隊擁有者。",
-    "pending_invites": "待定邀請",
-    "permissions": "許可權",
-    "saved": "團隊已儲存",
-    "select_a_team": "選擇團隊",
-    "title": "團隊",
-    "we_sent_invite_link": "我們向所有受邀者傳送了邀請連結！",
-    "we_sent_invite_link_description": "請所有受邀者檢查他們的收件匣。點擊連結加入團隊。"
+    "no_access": "您沒有編輯組合的許可權"
   },
   "test": {
     "failed": "測試未通過",

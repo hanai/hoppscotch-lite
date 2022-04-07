@@ -26,8 +26,6 @@ export type HoppAction =
   | "navigation.jump.graphql" // Jump to GraphQL page
   | "navigation.jump.realtime" // Jump to realtime page
   | "navigation.jump.documentation" // Jump to documentation page
-  | "navigation.jump.settings" // Jump to settings page
-  | "navigation.jump.profile" // Jump to profile page
   | "settings.theme.system" // Use system theme
   | "settings.theme.light" // Use light theme
   | "settings.theme.dark" // Use dark theme

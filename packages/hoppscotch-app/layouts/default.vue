@@ -163,12 +163,6 @@ function defineJumpActions() {
   defineActionHandler("navigation.jump.documentation", () => {
     router.push({ path: localePath("/documentation") })
   })
-  defineActionHandler("navigation.jump.settings", () => {
-    router.push({ path: localePath("/settings") })
-  })
-  defineActionHandler("navigation.jump.profile", () => {
-    router.push({ path: localePath("/profile") })
-  })
   defineActionHandler("settings.theme.system", () => {
     applySetting("BG_COLOR", "system")
   })

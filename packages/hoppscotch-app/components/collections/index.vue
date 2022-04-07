@@ -13,13 +13,6 @@
           class="py-2 pl-4 pr-2 bg-transparent"
         />
       </div>
-      <CollectionsChooseType
-        :collections-type="collectionsType"
-        :show="showTeamCollections"
-        :doc="doc"
-        @update-collection-type="updateCollectionType"
-        @update-selected-team="updateSelectedTeam"
-      />
       <div class="flex justify-between flex-1">
         <ButtonSecondary
           v-if="
@@ -272,12 +265,6 @@ export default defineComponent({
     }
   },
   computed: {
-    showTeamCollections() {
-      if (this.currentUser == null) {
-        return false
-      }
-      return true
-    },
     filteredCollections() {
       const collections =
         this.collectionsType.type === "my-collections"
