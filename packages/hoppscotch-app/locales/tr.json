@@ -123,7 +123,6 @@
     "remove_history": "Tüm geçmişi kalıcı olarak silmek istediğinizden emin misiniz?",
     "remove_request": "Bu isteği kalıcı olarak silmek istediğinizden emin misiniz?",
     "remove_team": "Bu takımı silmek istediğinizden emin misiniz?",
-    "remove_telemetry": "Telemetriden çıkmak istediğinizden emin misiniz?",
     "sync": "Bu çalışma alanını senkronize etmek istediğinizden emin misiniz?"
   },
   "count": {
@@ -403,8 +402,6 @@
     "sync_environments": "ortamlar",
     "sync_history": "Tarih",
     "system_mode": "sistem",
-    "telemetry": "telemetri",
-    "telemetry_helps_us": "Telemetri, operasyonlarımızı kişiselleştirmemize ve size en iyi deneyimi sunmamıza yardımcı olur.",
     "theme": "Tema",
     "theme_description": "Uygulama temanızı özelleştirin.",
     "use_experimental_url_bar": "Ortam vurgulamalı deneysel URL çubuğunu kullanın",

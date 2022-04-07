@@ -70,11 +70,6 @@
             </div>
             <div class="py-4 space-y-4">
               <div class="flex items-center">
-                <SmartToggle :on="TELEMETRY_ENABLED" @change="showConfirmModal">
-                  {{ t("settings.telemetry") }}
-                </SmartToggle>
-              </div>
-              <div class="flex items-center">
                 <SmartToggle
                   :on="EXPAND_NAVIGATION"
                   @change="toggleSetting('EXPAND_NAVIGATION')"
@@ -218,19 +213,6 @@
         </div>
       </div>
     </div>
-    <SmartConfirmModal
-      :show="confirmRemove"
-      :title="`${t('confirm.remove_telemetry')} ${t(
-        'settings.telemetry_helps_us'
-      )}`"
-      @hide-modal="confirmRemove = false"
-      @resolve="
-        () => {
-          toggleSetting('TELEMETRY_ENABLED')
-          confirmRemove = false
-        }
-      "
-    />
   </div>
 </template>
 
@@ -258,7 +240,6 @@ const ACCENT_COLOR = useSetting("THEME_COLOR")
 const PROXY_ENABLED = useSetting("PROXY_ENABLED")
 const PROXY_URL = useSetting("PROXY_URL")
 const EXTENSIONS_ENABLED = useSetting("EXTENSIONS_ENABLED")
-const TELEMETRY_ENABLED = useSetting("TELEMETRY_ENABLED")
 const EXPAND_NAVIGATION = useSetting("EXPAND_NAVIGATION")
 const SIDEBAR_ON_LEFT = useSetting("SIDEBAR_ON_LEFT")
 const ZEN_MODE = useSetting("ZEN_MODE")
@@ -289,8 +270,6 @@ const hasFirefoxExtInstalled = usePolled(5000, (stopPolling) => {
 })
 
 const clearIcon = ref("rotate-ccw")
-
-const confirmRemove = ref(false)
 
 const proxySettings = computed(() => ({
   url: PROXY_URL.value,
@@ -323,11 +302,6 @@ const toggleInterceptor = (interceptor: "extension" | "proxy") => {
       EXTENSIONS_ENABLED.value = false
     }
   }
-}
-
-const showConfirmModal = () => {
-  if (TELEMETRY_ENABLED.value) confirmRemove.value = true
-  else toggleSetting("TELEMETRY_ENABLED")
 }
 
 const resetProxy = () => {

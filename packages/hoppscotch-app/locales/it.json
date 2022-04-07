@@ -123,7 +123,6 @@
     "remove_history": "Sei sicuro di voler eliminare definitivamente tutta la cronologia?",
     "remove_request": "Sei sicuro di voler eliminare definitivamente questa richiesta?",
     "remove_team": "Sei sicuro di voler eliminare questo team?",
-    "remove_telemetry": "Sei sicuro di voler disattivare la telemetria?",
     "sync": "Vuoi ripristinare il tuo spazio di lavoro con quello del cloud? Questo annullerà le tue modifiche fatte in locale."
   },
   "count": {
@@ -403,8 +402,6 @@
     "sync_environments": "Ambienti",
     "sync_history": "Cronologia",
     "system_mode": "Sistema",
-    "telemetry": "Telemetria",
-    "telemetry_helps_us": "La telemetria ci aiuta a personalizzare le nostre operazioni e a offrirti la migliore esperienza.",
     "theme": "Tema",
     "theme_description": "Personalizza il tema della tua applicazione.",
     "use_experimental_url_bar": "Usa la barra degli URL sperimentale con l'evidenziazione dell'ambiente",

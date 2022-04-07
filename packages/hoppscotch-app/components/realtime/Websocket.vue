@@ -184,7 +184,6 @@
 import { defineComponent } from "@nuxtjs/composition-api"
 import debounce from "lodash/debounce"
 import draggable from "vuedraggable"
-import { logHoppRequestRunToAnalytics } from "~/helpers/fb/analytics"
 import {
   setWSEndpoint,
   WSEndpoint$,
@@ -333,10 +332,6 @@ export default defineComponent({
         this.handleError(e)
         this.$toast.error(this.$t("error.something_went_wrong"))
       }
-
-      logHoppRequestRunToAnalytics({
-        platform: "wss",
-      })
     },
     disconnect() {
       if (this.socket) {

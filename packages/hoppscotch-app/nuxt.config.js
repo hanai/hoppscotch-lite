@@ -117,10 +117,6 @@ export default {
     "@nuxtjs/stylelint-module",
     // https://github.com/nuxt-community/eslint-module
     "@nuxtjs/eslint-module",
-    // https://github.com/nuxt-community/analytics-module
-    "@nuxtjs/google-analytics",
-    // https://github.com/nuxt-community/gtm-module
-    "@nuxtjs/gtm",
     // https://github.com/windicss/windicss
     "nuxt-windicss",
     // https://github.com/nuxt-community/color-mode-module
@@ -186,16 +182,6 @@ export default {
     duration: 3000,
     keepOnHover: true,
     // singleton: true,
-  },
-
-  // Google Analytics module configuration (https://github.com/nuxt-community/analytics-module)
-  googleAnalytics: {
-    id: process.env.GA_ID,
-  },
-
-  // Google Tag Manager module configuration (https://github.com/nuxt-community/gtm-module)
-  gtm: {
-    id: process.env.GTM_ID,
   },
 
   // Sitemap module configuration (https://github.com/nuxt-community/sitemap-module)
@@ -320,8 +306,6 @@ export default {
 
   // dotenv configuration (https://github.com/nuxt-community/dotenv-module)
   env: {
-    GA_ID: process.env.GA_ID,
-    GTM_ID: process.env.GTM_ID,
     API_KEY: process.env.API_KEY,
     AUTH_DOMAIN: process.env.AUTH_DOMAIN,
     DATABASE_URL: process.env.DATABASE_URL,

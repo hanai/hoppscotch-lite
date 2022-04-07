@@ -56,7 +56,6 @@
 import { defineComponent } from "@nuxtjs/composition-api"
 import "splitpanes/dist/splitpanes.css"
 import debounce from "lodash/debounce"
-import { logHoppRequestRunToAnalytics } from "~/helpers/fb/analytics"
 import {
   SSEEndpoint$,
   setSSEEndpoint,
@@ -191,10 +190,6 @@ export default defineComponent({
           },
         ]
       }
-
-      logHoppRequestRunToAnalytics({
-        platform: "sse",
-      })
     },
     handleSSEError(error) {
       this.stop()

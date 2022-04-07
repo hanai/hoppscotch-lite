@@ -123,7 +123,6 @@
     "remove_history": "Möchten Sie wirklich den gesamten Verlauf dauerhaft löschen?",
     "remove_request": "Möchten Sie diese Anfrage wirklich dauerhaft löschen?",
     "remove_team": "Möchten Sie dieses Team wirklich löschen?",
-    "remove_telemetry": "Möchten Sie die Telemetrie wirklich deaktivieren?",
     "sync": "Möchten Sie diesen Arbeitsbereich wirklich synchronisieren?"
   },
   "count": {
@@ -403,8 +402,6 @@
     "sync_environments": "Umgebungen",
     "sync_history": "Verlauf",
     "system_mode": "System",
-    "telemetry": "Telemetrie",
-    "telemetry_helps_us": "Telemetrie hilft uns, unseren Betrieb zu personalisieren und Ihnen das beste Erlebnis zu bieten.",
     "theme": "Thema",
     "theme_description": "Passen Sie Ihr Anwendungsdesign an.",
     "use_experimental_url_bar": "Experimentelle URL-Leiste mit Hervorhebung der Umgebung verwenden",

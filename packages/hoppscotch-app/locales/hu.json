@@ -123,7 +123,6 @@
     "remove_history": "Biztosan véglegesen törölni szeretné az összes előzményt?",
     "remove_request": "Biztosan véglegesen törölni szeretné ezt a kérést?",
     "remove_team": "Biztosan törölni szeretné ezt a csapatot?",
-    "remove_telemetry": "Biztosan ki szeretné kapcsolni a telemetriát?",
     "sync": "Szeretné visszaállítani a munkaterületét a felhőből? Ez el fogja vetni a helyi folyamatát."
   },
   "count": {
@@ -403,8 +402,6 @@
     "sync_environments": "Környezetek",
     "sync_history": "Előzmények",
     "system_mode": "Rendszer",
-    "telemetry": "Telemetria",
-    "telemetry_helps_us": "A telemetria segít nekünk személyre szabni a működésünket és a legjobb élményt nyújtani Önnek.",
     "theme": "Téma",
     "theme_description": "Az alkalmazás témájának személyre szabása.",
     "use_experimental_url_bar": "Kísérleti URL-sáv használata a környezet kiemelésével",

@@ -123,7 +123,6 @@
     "remove_history": "Er du sikker på at du vil slette all historikk permanent?",
     "remove_request": "Er du sikker på at du vil slette denne forespørselen for godt?",
     "remove_team": "Er du sikker på at du vil slette dette laget?",
-    "remove_telemetry": "Er du sikker på at du vil velge bort telemetri?",
     "sync": "Er du sikker på at du vil synkronisere dette arbeidsområdet?"
   },
   "count": {
@@ -403,8 +402,6 @@
     "sync_environments": "Miljøer",
     "sync_history": "Historie",
     "system_mode": "System",
-    "telemetry": "Telemetri",
-    "telemetry_helps_us": "Telemetri hjelper oss med å tilpasse driften og levere den beste opplevelsen til deg.",
     "theme": "Tema",
     "theme_description": "Tilpass søknadstemaet ditt.",
     "use_experimental_url_bar": "Bruk en eksperimentell URL-linje med utheving av miljøet",

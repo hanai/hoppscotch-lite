@@ -123,7 +123,6 @@
     "remove_history": "Opravdu chcete trvale smazat celou historii?",
     "remove_request": "Opravdu chcete tento požadavek trvale smazat?",
     "remove_team": "Opravdu chcete tento tým smazat?",
-    "remove_telemetry": "Opravdu se chcete odhlásit z telemetrie?",
     "sync": "Opravdu chcete synchronizovat tento pracovní prostor?"
   },
   "count": {
@@ -403,8 +402,6 @@
     "sync_environments": "Prostředí",
     "sync_history": "Dějiny",
     "system_mode": "Systém",
-    "telemetry": "Telemetrie",
-    "telemetry_helps_us": "Telemetrie nám pomáhá personalizovat naše operace a poskytovat vám to nejlepší prostředí.",
     "theme": "Téma",
     "theme_description": "Přizpůsobte si motiv aplikace.",
     "use_experimental_url_bar": "Použijte experimentální lištu URL se zvýrazněním prostředí",

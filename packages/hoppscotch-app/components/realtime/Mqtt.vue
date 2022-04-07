@@ -126,7 +126,6 @@
 import { defineComponent } from "@nuxtjs/composition-api"
 import Paho from "paho-mqtt"
 import debounce from "lodash/debounce"
-import { logHoppRequestRunToAnalytics } from "~/helpers/fb/analytics"
 import {
   MQTTEndpoint$,
   setMQTTEndpoint,
@@ -242,10 +241,6 @@ export default defineComponent({
       this.client.connect(connectOptions)
       this.client.onConnectionLost = this.onConnectionLost
       this.client.onMessageArrived = this.onMessageArrived
-
-      logHoppRequestRunToAnalytics({
-        platform: "mqtt",
-      })
     },
     onConnectionFailure() {
       this.connectingState = false

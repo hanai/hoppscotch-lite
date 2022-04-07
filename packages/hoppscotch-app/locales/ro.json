@@ -123,7 +123,6 @@
     "remove_history": "Sigur doriți să ștergeți definitiv tot istoricul?",
     "remove_request": "Sigur doriți să ștergeți definitiv această solicitare?",
     "remove_team": "Sigur doriți să ștergeți această echipă?",
-    "remove_telemetry": "Sigur doriți să renunțați la telemetrie?",
     "sync": "Sigur doriți să sincronizați acest spațiu de lucru?"
   },
   "count": {
@@ -403,8 +402,6 @@
     "sync_environments": "Medii",
     "sync_history": "Istorie",
     "system_mode": "Sistem",
-    "telemetry": "Telemetrie",
-    "telemetry_helps_us": "Telemetria ne ajută să ne personalizăm operațiunile și să vă oferim cea mai bună experiență.",
     "theme": "Temă",
     "theme_description": "Personalizați tema aplicației.",
     "use_experimental_url_bar": "Utilizați bara URL experimentală cu evidențierea mediului",

@@ -72,7 +72,6 @@ import { setupLocalPersistence } from "~/newstore/localpersistence"
 import { performMigrations } from "~/helpers/migrations"
 import { initUserInfo } from "~/helpers/teams/BackendUserInfo"
 import { applySetting, useSetting } from "~/newstore/settings"
-import { logPageView } from "~/helpers/fb/analytics"
 import { hookKeybindingsListener } from "~/helpers/keybindings"
 import { defineActionHandler } from "~/helpers/actions"
 import { useColorMode } from "~/helpers/utils/composables"
@@ -220,11 +219,6 @@ export default defineComponent({
   head() {
     return this.$nuxtI18nHead({ addSeoAttributes: true })
   },
-  watch: {
-    $route(to) {
-      logPageView(to.fullPath)
-    },
-  },
   beforeMount() {
     setupLocalPersistence()
   },
@@ -266,8 +260,6 @@ export default defineComponent({
     }
 
     initUserInfo()
-
-    logPageView(this.$router.currentRoute.fullPath)
   },
 })
 </script>

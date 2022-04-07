@@ -45,7 +45,6 @@ export type SettingsType = {
   }
   THEME_COLOR: HoppAccentColor
   BG_COLOR: HoppBgColor
-  TELEMETRY_ENABLED: boolean
   EXPAND_NAVIGATION: boolean
   SIDEBAR: boolean
   SIDEBAR_ON_LEFT: boolean
@@ -71,7 +70,6 @@ export const defaultSettings: SettingsType = {
   },
   THEME_COLOR: "indigo",
   BG_COLOR: "system",
-  TELEMETRY_ENABLED: true,
   EXPAND_NAVIGATION: true,
   SIDEBAR: true,
   SIDEBAR_ON_LEFT: false,

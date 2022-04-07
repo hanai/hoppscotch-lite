@@ -123,7 +123,6 @@
     "remove_history": "Voulez-vous vraiment supprimer définitivement tout l'historique ?",
     "remove_request": "Voulez-vous vraiment supprimer définitivement cette requête ?",
     "remove_team": "Voulez-vous vraiment supprimer cette équipe ?",
-    "remove_telemetry": "Êtes-vous sûr de vouloir désactiver la télémétrie ?",
     "sync": "Voulez-vous vraiment synchroniser cet espace de travail ?"
   },
   "count": {
@@ -403,8 +402,6 @@
     "sync_environments": "Environnements",
     "sync_history": "Historique",
     "system_mode": "Système",
-    "telemetry": "Télémétrie",
-    "telemetry_helps_us": "La télémétrie nous aide à personnaliser nos opérations et à vous offrir la meilleure expérience.",
     "theme": "Thème",
     "theme_description": "Personnalisez le thème de votre application.",
     "use_experimental_url_bar": "Utiliser la barre d'URL expérimentale avec mise en évidence de l'environnement",

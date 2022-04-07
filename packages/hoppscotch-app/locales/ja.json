@@ -123,7 +123,6 @@
     "remove_history": "すべての履歴を完全に削除してもよろしいですか？",
     "remove_request": "このリクエストを完全に削除してもよろしいですか？",
     "remove_team": "このチームを削除してもよろしいですか？",
-    "remove_telemetry": "テレメトリをオプトアウトしてもよろしいですか？",
     "sync": "クラウドからワークスペースを復元しますか？この場合、ローカルの進行状況は破棄されます。"
   },
   "count": {
@@ -404,8 +403,6 @@
     "sync_environments": "環境",
     "sync_history": "履歴",
     "system_mode": "システム",
-    "telemetry": "テレメトリ",
-    "telemetry_helps_us": "テレメトリは、私たちの業務をパーソナライズし、ユーザの皆様に最高の体験を提供するために役立てられます。",
     "theme": "テーマ",
     "theme_description": "アプリケーションのテーマをカスタマイズ",
     "use_experimental_url_bar": "環境を強調した実験的なURLバーを使用",

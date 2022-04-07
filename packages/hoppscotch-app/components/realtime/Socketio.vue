@@ -281,7 +281,6 @@ import { io as ClientV3 } from "socket.io-client-v3"
 import { io as ClientV4 } from "socket.io-client-v4"
 import wildcard from "socketio-wildcard"
 import debounce from "lodash/debounce"
-import { logHoppRequestRunToAnalytics } from "~/helpers/fb/analytics"
 import {
   SIOEndpoint$,
   setSIOEndpoint,
@@ -456,10 +455,6 @@ export default defineComponent({
         this.handleError(e)
         this.$toast.error(this.$t("error.something_went_wrong"))
       }
-
-      logHoppRequestRunToAnalytics({
-        platform: "socketio",
-      })
     },
     disconnect() {
       this.io.close()

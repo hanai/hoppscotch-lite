@@ -123,7 +123,6 @@
     "remove_history": "您確定要永久刪除全部歷史記錄嗎？",
     "remove_request": "您確定要永久刪除該請求嗎？",
     "remove_team": "您確定要刪除該團隊嗎？",
-    "remove_telemetry": "您確定要退出遙測服務嗎？",
     "sync": "您想從雲端恢復您的工作區嗎？這將丟棄您的本地進度。"
   },
   "count": {
@@ -403,8 +402,6 @@
     "sync_environments": "環境",
     "sync_history": "歷史",
     "system_mode": "系統",
-    "telemetry": "遙測服務",
-    "telemetry_helps_us": "遙測服務幫助我們進行個性化操作，為您提供最佳體驗。",
     "theme": "主題",
     "theme_description": "自定義您的應用程式主題。",
     "use_experimental_url_bar": "使用帶有環境高亮的實驗性 URL 欄",

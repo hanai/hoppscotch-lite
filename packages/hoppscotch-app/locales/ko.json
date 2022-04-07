@@ -123,7 +123,6 @@
     "remove_history": "모든 기록을 영구적으로 삭제하시겠습니까?",
     "remove_request": "이 요청을 영구적으로 삭제하시겠습니까?",
     "remove_team": "이 팀을 삭제하시겠습니까?",
-    "remove_telemetry": "진단 데이터 사용 선택 해제하시겠습니까?",
     "sync": "이 작업공간을 동기화하시겠습니까?"
   },
   "count": {
@@ -403,8 +402,6 @@
     "sync_environments": "환경",
     "sync_history": "기록",
     "system_mode": "시스템에 따르기",
-    "telemetry": "진단 데이터 사용",
-    "telemetry_helps_us": "진단 데이터 사용은 운영을 개인화하고 최고의 경험을 제공하는 데 도움이 됩니다.",
     "theme": "테마",
     "theme_description": "응용 프로그램 테마를 사용자 지정합니다.",
     "use_experimental_url_bar": "환경 강조 표시와 함께 실험용 URL 표시줄 사용",

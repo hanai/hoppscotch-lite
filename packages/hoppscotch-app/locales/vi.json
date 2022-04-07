@@ -123,7 +123,6 @@
     "remove_history": "Bạn có chắc chắn muốn xóa vĩnh viễn tất cả lịch sử không?",
     "remove_request": "Bạn có chắc chắn muốn xóa vĩnh viễn yêu cầu này không?",
     "remove_team": "Bạn có chắc chắn muốn xóa nhóm này không?",
-    "remove_telemetry": "Bạn có chắc chắn muốn chọn không tham gia Đo lường từ xa không?",
     "sync": "Bạn có chắc chắn muốn đồng bộ hóa không gian làm việc này không?"
   },
   "count": {
@@ -403,8 +402,6 @@
     "sync_environments": "Môi trường",
     "sync_history": "Môn lịch sử",
     "system_mode": "Hệ thống",
-    "telemetry": "Từ xa",
-    "telemetry_helps_us": "Phép đo từ xa giúp chúng tôi cá nhân hóa các hoạt động của mình và mang đến trải nghiệm tốt nhất cho bạn.",
     "theme": "Chủ đề",
     "theme_description": "Tùy chỉnh chủ đề ứng dụng của bạn.",
     "use_experimental_url_bar": "Sử dụng thanh URL thử nghiệm với đánh dấu môi trường",

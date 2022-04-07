@@ -1,5 +1,4 @@
 import { initializeApp } from "firebase/app"
-import { initAnalytics } from "./analytics"
 import { initAuth } from "./auth"
 import { initCollections } from "./collections"
 import { initEnvironments } from "./environments"
@@ -29,7 +28,6 @@ export function initializeFirebase() {
       initCollections()
       initHistory()
       initEnvironments()
-      initAnalytics()
 
       initialized = true
     } catch (e) {

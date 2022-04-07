@@ -336,8 +336,6 @@ import {
 import { commonHeaders } from "~/helpers/headers"
 import { GQLConnection } from "~/helpers/GQLConnection"
 import { makeGQLHistoryEntry, addGraphqlHistoryEntry } from "~/newstore/history"
-import { logHoppRequestRunToAnalytics } from "~/helpers/fb/analytics"
-import { getCurrentStrategyID } from "~/helpers/network"
 import { useCodemirror } from "~/helpers/editor/codemirror"
 import jsonLinter from "~/helpers/editor/linting/json"
 import { createGQLQueryLinter } from "~/helpers/editor/linting/gqlQuery"
@@ -680,11 +678,6 @@ const runQuery = async () => {
     )
     console.error(e)
   }
-
-  logHoppRequestRunToAnalytics({
-    platform: "graphql-query",
-    strategy: getCurrentStrategyID(),
-  })
 }
 
 const hideRequestModal = () => {

@@ -123,7 +123,6 @@
     "remove_history": "Tem certeza de que deseja excluir permanentemente todo o histórico?",
     "remove_request": "Tem certeza de que deseja excluir permanentemente esta solicitação?",
     "remove_team": "Tem certeza que deseja excluir esta equipe?",
-    "remove_telemetry": "Tem certeza de que deseja cancelar a telemetria?",
     "sync": "Tem certeza de que deseja sincronizar este espaço de trabalho?"
   },
   "count": {
@@ -403,8 +402,6 @@
     "sync_environments": "Ambientes",
     "sync_history": "História",
     "system_mode": "Sistema",
-    "telemetry": "Telemetria",
-    "telemetry_helps_us": "A telemetria nos ajuda a personalizar nossas operações e oferecer a melhor experiência para você.",
     "theme": "Tema",
     "theme_description": "Personalize o tema do seu aplicativo.",
     "use_experimental_url_bar": "Use a barra de URL experimental com destaque do ambiente",

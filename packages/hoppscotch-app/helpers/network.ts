@@ -46,21 +46,6 @@ const runAppropriateStrategy = (req: AxiosRequestConfig) => {
   return AxiosStrategy(req)
 }
 
-/**
- * Returns an identifier for how a request will be ran
- * if the system is asked to fire a request
- *
- */
-export function getCurrentStrategyID() {
-  if (isExtensionsAllowed() && hasExtensionInstalled()) {
-    return "extension" as const
-  } else if (settingsStore.value.PROXY_ENABLED) {
-    return "proxy" as const
-  } else {
-    return "normal" as const
-  }
-}
-
 export const sendNetworkRequest = (req: any) =>
   pipe(
     runAppropriateStrategy(req),

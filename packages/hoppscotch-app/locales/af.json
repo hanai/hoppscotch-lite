@@ -123,7 +123,6 @@
     "remove_history": "Is u seker dat u alle geskiedenis permanent wil uitvee?",
     "remove_request": "Is u seker dat u hierdie versoek permanent wil uitvee?",
     "remove_team": "Weet u seker dat u hierdie span wil uitvee?",
-    "remove_telemetry": "Weet u seker dat u van Telemetry wil afskakel?",
     "sync": "Is u seker dat u hierdie werkruimte wil sinkroniseer?"
   },
   "count": {
@@ -403,8 +402,6 @@
     "sync_environments": "Omgewings",
     "sync_history": "Geskiedenis",
     "system_mode": "Stelsel",
-    "telemetry": "Telemetrie",
-    "telemetry_helps_us": "Telemetrie help ons om ons bedrywighede te personaliseer en die beste ervaring aan u te lewer.",
     "theme": "Tema",
     "theme_description": "Pas u toepassings tema aan.",
     "use_experimental_url_bar": "Gebruik 'n eksperimentele URL -balk met omgewingsverligting",

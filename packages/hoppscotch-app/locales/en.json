@@ -129,7 +129,6 @@
     "remove_history": "Are you sure you want to permanently delete all history?",
     "remove_request": "Are you sure you want to permanently delete this request?",
     "remove_team": "Are you sure you want to delete this team?",
-    "remove_telemetry": "Are you sure you want to opt-out of Telemetry?",
     "sync": "Would you like to restore your workspace from cloud? This will discard your local progress."
   },
   "count": {
@@ -418,8 +417,6 @@
     "sync_environments": "Environments",
     "sync_history": "History",
     "system_mode": "System",
-    "telemetry": "Telemetry",
-    "telemetry_helps_us": "Telemetry helps us to personalize our operations and deliver the best experience to you.",
     "theme": "Theme",
     "theme_description": "Customize your application theme.",
     "use_experimental_url_bar": "Use experimental URL bar with environment highlighting",
